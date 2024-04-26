@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mperugachiExamen.Vistas.vResumen"
+             Title="vResumen">
+    <VerticalStackLayout>
+        <Label 
+            Text="REGISTRO"
+            TextColor="Blue"
+            FontSize="22"
+            HorizontalTextAlignment="Center"/>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="NOMBRE"
+                   TextColor="Blue"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblNombre"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="0"
+                   Grid.Column="1"/>
+
+            <Label Text="APELLIDO"
+                   TextColor="Blue"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblApellido"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+
+            <Label Text="EDAD"
+                   TextColor="Blue"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblEdad"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="2"
+                   Grid.Column="1"/>
+
+            <Label Text="FECHA"
+                   TextColor="Blue"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblFecha"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="3"
+                   Grid.Column="1"/>
+
+            <Label Text="CIUDAD"
+                   TextColor="Blue"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblCiudad"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="4"
+                   Grid.Column="1"/>
+
+            <Label Text="PAIS"
+                   TextColor="Blue"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblPais"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="5"
+                   Grid.Column="1"/>
+
+            <Label Text="M. INICIAL"
+                   TextColor="Blue"
+                   Grid.Row="6"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblMIni"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="6"
+                   Grid.Column="1"/>
+
+            <Label Text="PAGO MENSUAL"
+                   TextColor="Blue"
+                   Grid.Row="7"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblPago"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="7"
+                   Grid.Column="1"/>
+
+            <Label Text="PAGO TOTAL"
+                   TextColor="Blue"
+                   Grid.Row="8"
+                   Grid.Column="0"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblPagoT"
+                   FontSize="20"
+                   TextColor="Black"
+                   Grid.Row="8"
+                   Grid.Column="1"/>
+        </Grid>
+
+        <Button x:Name="btnSalir"
+                Text="CERRAR SESION"
+                Clicked="btnSalir_Clicked"
+                Grid.Row="0"
+                Grid.Column="1"/>
+    </VerticalStackLayout>
+</ContentPage>
